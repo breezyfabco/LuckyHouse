@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
@@ -13,37 +14,14 @@ const navLinks = [
 
 function LHLogo({ size = 40 }: { size?: number }) {
   return (
-    <svg
+    <Image
+      src="/logo.png"
+      alt="Lucky House logo"
       width={size}
       height={size}
-      viewBox="0 0 100 100"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-label="Lucky House logo"
-    >
-      <rect width="100" height="100" rx="14" fill="#ED1C24" />
-      {/* Roof chevron */}
-      <polyline
-        points="18,45 50,17 82,45"
-        stroke="white"
-        strokeWidth="9"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        fill="none"
-      />
-      {/* Chimney */}
-      <rect x="65" y="19" width="9" height="17" fill="white" />
-      {/* L – vertical */}
-      <rect x="19" y="51" width="11" height="31" fill="white" />
-      {/* L – horizontal base */}
-      <rect x="19" y="71" width="23" height="11" fill="white" />
-      {/* H – left vertical */}
-      <rect x="52" y="51" width="11" height="31" fill="white" />
-      {/* H – right vertical */}
-      <rect x="76" y="51" width="11" height="31" fill="white" />
-      {/* H – crossbar */}
-      <rect x="52" y="63" width="35" height="9" fill="white" />
-    </svg>
+      className="rounded-sm"
+      priority
+    />
   )
 }
 
