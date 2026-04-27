@@ -7,8 +7,8 @@ function LHLogo({ size = 36 }: { size?: number }) {
     <Image
       src="/logo.png"
       alt="Lucky House logo"
-      width={size}
-      height={size}
+      width={size = 36}
+      height={size = 36}
       className="rounded-sm"
     />
   )
