@@ -8,7 +8,6 @@ import { ArrowRight, ChevronDown } from 'lucide-react'
 const stats = [
   { value: '10+', label: 'Rokov skúseností' },
   { value: '150+', label: 'Dokončených projektov' },
-  { value: '100%', label: 'Spokojných klientov' },
 ]
 
 export default function HeroSection() {
