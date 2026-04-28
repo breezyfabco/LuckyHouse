@@ -11,7 +11,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Lucky House – Stavebná firma Veľké Kostoľany',
   description:
-    'Výstavba rodinných domov na kľúč, rekonštrukcie a stavebné práce v trnavskom kraji a celom Slovensku. Profesionálna kvalita, odborné poradenstvo.',
+    'Výstavba rodinných domov na kľúč, rekonštrukcie a stavebné práce v Trnavskom kraji a okolí. Profesionálna kvalita, odborné poradenstvo.',
   keywords: [
     'Stavebná firma Veľké Kostoľany',
     'Výstavba rodinných domov Slovensko',
@@ -22,12 +22,17 @@ export const metadata: Metadata = {
     'hrubá stavba',
     'strojové omietky',
     'sadrokartón',
+    'stavba domu',
+    'omietky',
+    'stavebna firma trnava',
+    'vystavba velke kostolany',
+    'rodinne domy velke kostolany',
   ],
   authors: [{ name: 'Lucky House' }],
   openGraph: {
     title: 'Lucky House – Stavebná firma Veľké Kostoľany',
     description:
-      'Profesionálna výstavba domov a stavebné práce v trnavskom kraji a okolí.',
+      'Profesionálna výstavba domov a stavebné práce v Trnavskom kraji a okolí.',
     locale: 'sk_SK',
     type: 'website',
     url: 'https://luckyhouse.sk',
@@ -36,7 +41,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Lucky House – Stavebná firma Veľké Kostoľany',
-    description: 'Profesionálna výstavba domov a stavebné práce v trnavskom kraji.',
+    description: 'Profesionálna výstavba domov a stavebné práce v Trnavskom kraji.',
   },
   robots: {
     index: true,
