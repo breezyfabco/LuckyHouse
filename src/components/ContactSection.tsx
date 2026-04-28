@@ -109,7 +109,7 @@ export default function ContactSection() {
                       value={formData.phone}
                       onChange={handleChange('phone')}
                       className="w-full bg-white/8 border border-white/15 text-white placeholder-white/25 rounded-xl px-4 py-3 focus:outline-none focus:border-brand focus:ring-2 focus:ring-brand/30 transition"
-                      placeholder="+421 900 000 000"
+                      placeholder="+421 908 655 662"
                     />
                   </div>
                 </div>
@@ -178,7 +178,7 @@ export default function ContactSection() {
               </h3>
               <div className="space-y-5">
                 <a
-                  href="tel:+421900000000"
+                  href="tel:+421908655662"
                   className="flex items-center gap-4 group"
                   aria-label="Zavolajte nám"
                 >
@@ -193,7 +193,7 @@ export default function ContactSection() {
                       Telefón
                     </p>
                     <p className="text-white font-semibold text-lg">
-                      +421 900 000 000
+                      +421 908 655 662
                     </p>
                   </div>
                 </a>
@@ -243,7 +243,7 @@ export default function ContactSection() {
               </h3>
               <div className="flex gap-3">
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/share/1CEcCkPmZU/?mibextid=wwXIfr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 bg-white/8 hover:bg-brand border border-white/10 rounded-xl px-4 py-3 transition-colors group"
@@ -258,7 +258,7 @@ export default function ContactSection() {
                   </span>
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/lucky.house.sro?igsh=dWpxb2h0aWxlc3Ix"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 bg-white/8 hover:bg-brand border border-white/10 rounded-xl px-4 py-3 transition-colors group"
